@@ -16,3 +16,5 @@ set_prop(system_server, xtra_control_prop)
 
 # Stage the Play Integrity props that bionic serves to DroidGuard.
 set_prop(system_server, pif_prop)
+
+get_prop(system_server, duck_rkp_config_prop)

@@ -22,6 +22,7 @@ ro.lineage.device                      u:object_r:custom_version_prop:s0
 
 # Play Integrity staging props read by bionic in DroidGuard.
 persist.sys.pif.                       u:object_r:pif_prop:s0 prefix string
+ro.lineage.duckrkp.trusty_import        u:object_r:duck_rkp_config_prop:s0 exact bool
 
 # Force multi-window behavior
 ro.config.force_multi_window           u:object_r:exported_config_prop:s0 exact bool
